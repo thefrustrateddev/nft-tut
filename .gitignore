@@ -1,3 +1,5 @@
 node_modules/
 nft-gen-creator/node_modules/
 .env
+
+nft-gen-creator/.env
