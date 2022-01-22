@@ -8,10 +8,6 @@ export default{
   install(Vue, options) {
     console.log("called at ");
 
-
-    const MNEMONIC = process.env.MNEMONIC || 'vault crazy health quality near hospital expose smooth whisper humble seat moon';
-    const API_KEY = process.env.NODE_KEY || '472f9ba92248c25e4b349f52658527699849f80a';
-
     const NFTContract = require("../../contracts/NFTItem.json");
     const MUMBAI = `https://rpc-mumbai.maticvigil.com/v1/${API_KEY}`
 
