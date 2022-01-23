@@ -1,10 +1,9 @@
 import Vue from 'vue';
 import App from './App.vue';
-// import web3 from './plugins/web3';
-import getWeb3 from './utils/getWeb3.js';
+import pinata from './plugins/pinata';
 Vue.config.productionTip = false;
 
-// Vue.use(web3);
+Vue.use(pinata);
 
 // (async () => {
 //   console.log(getWeb3);

@@ -11,7 +11,7 @@ contract NFTItem is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("GameItem", "ITM") {}
+    constructor() ERC721("FrustratedBlob", "FDITM") {}
     function totalSupply() public view returns (uint256) {
         return _tokenIds.current();
     }
