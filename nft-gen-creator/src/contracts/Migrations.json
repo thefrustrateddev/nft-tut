@@ -2311,12 +2311,12 @@
     "80001": {
       "events": {},
       "links": {},
-      "address": "0xf2ffc755D694920c43b7DEEA00564D1CCB42Ab31",
-      "transactionHash": "0x8120143e30f0ee7ff61378489f1efaa0966ef4b9acdb03ee5fb6ef06aea8c23f"
+      "address": "0x89db0de57FaB94c1479629f05cD00578DBc23Ee3",
+      "transactionHash": "0xe0710eb0f815a5dddb839b7f724c7c71b20d9f7d33f1f0d82caef88249634e4f"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-23T08:16:16.119Z",
+  "updatedAt": "2022-01-23T08:57:36.199Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

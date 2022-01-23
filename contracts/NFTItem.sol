@@ -20,8 +20,11 @@ contract NFTItem is ERC721URIStorage, Ownable {
     // function contractURI() public pure returns (string memory) {
     //     return "https://ipfs.io/ipfs/QmXRCUyprvjxZis9Qo64ku9mTnbiohWcaJg67QTkhVExAW";
     // }
+    event NFTMinted(address _sender);
+
+    // to be added kyc;
     function awardItem(address player, string memory tokenURI)
-        public onlyOwner
+        public
         returns (uint256)
     {
         _tokenIds.increment();
@@ -29,7 +32,7 @@ contract NFTItem is ERC721URIStorage, Ownable {
         uint256 newItemId = _tokenIds.current();
         _mint(player, newItemId);
         _setTokenURI(newItemId, tokenURI);
-
+        emit NFTMinted(msg.sender);
         return newItemId;
     }
 }
